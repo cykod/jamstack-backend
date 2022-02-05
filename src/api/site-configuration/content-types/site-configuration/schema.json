@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_configurations",
+  "info": {
+    "singularName": "site-configuration",
+    "pluralName": "site-configurations",
+    "displayName": "Site Configuration",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "site_title": {
+      "type": "string"
+    },
+    "menu": {
+      "displayName": "menu_item",
+      "type": "component",
+      "repeatable": true,
+      "component": "site-blocks.menu-item"
+    }
+  }
+}
